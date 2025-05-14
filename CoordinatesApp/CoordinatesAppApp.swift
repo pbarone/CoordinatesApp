@@ -1,17 +1,16 @@
-//
-//  CoordinatesAppApp.swift
-//  CoordinatesApp
-//
-//  Created by Paolo Barone on 5/13/25.
-//
-
 import SwiftUI
 
+/// The main entry point for the Coordinates App.
+/// This struct conforms to the App protocol and defines the app's structure.
 @main
-struct CoordinatesAppApp: App {
+struct CoordinatesApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
+}
+
+#Preview {
+    ContentView()
 }
